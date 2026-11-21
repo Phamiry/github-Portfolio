@@ -30,10 +30,7 @@ The source declares `package application` and imports JavaFX.
 A JavaFX-enabled JDK/runtime and properly configured resources are needed.
 **Important:** The provided `Main.java` expects `application.css`, and `Die.java`
 expects `/images/Dice1.png` through `Dice6.png`; these resource files were not
-among the uploaded materials. Add the original assets before attempting a full
+among the uploaded materials. Add random dice pictures online 1-6 before attempting a full
 GUI run. This is a source-and-design showcase, not a verified runnable build.
-Screenshot evidence presently includes UML and flowchart, not an actual running game.
 
-## Credit
-Source and diagrams were supplied by Jaylon Pham for his course-project portfolio.
-Specific individual vs. team contributions have not yet been verified.
+
