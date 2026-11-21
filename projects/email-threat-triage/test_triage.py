@@ -1,1 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380"><rect width="720" height="380" fill="#15283d"/><rect x="75" y="44" width="570" height="292" rx="16" fill="#0c1728" stroke="#35546b"/><circle cx="104" cy="68" r="7" fill="#58dec2"/><circle cx="127" cy="68" r="7" fill="#547589"/><text x="95" y="110" font-family="Arial" font-size="24" font-weight="bold" fill="#e6f0fb">Email Threat Triage</text><text x="95" y="139" font-family="Arial" font-size="13" fill="#9eb0c5">Illustrative screenshot • run the CLI for actual results</text><rect x="95" y="162" width="530" height="48" rx="8" fill="#172e43"/><text x="112" y="192" font-family="Arial" font-size="15" fill="#e2eaf3">Risk level: HIGH • 65 / 100</text><rect x="95" y="229" width="242" height="72" rx="8" fill="#173143"/><text x="111" y="254" font-family="Arial" font-size="13" fill="#58dec2">Signals</text><text x="111" y="277" font-family="Arial" font-size="12" fill="#d4e0ef">Urgency • suspicious URL</text><rect x="351" y="229" width="274" height="72" rx="8" fill="#173143"/><text x="366" y="254" font-family="Arial" font-size="13" fill="#58dec2">Suggested next step</text><text x="366" y="277" font-family="Arial" font-size="12" fill="#d4e0ef">Verify via trusted channel</text></svg>
+import unittest
+from triage import assess_email
+
+
+class TestEmailThreatTriage(unittest.TestCase):
+
+    def test_safe_email(self):
+        result = assess_email(
+            "Hello, our meeting is scheduled for tomorrow."
+        )
+        self.assertEqual(result["score"], 0)
+        self.assertEqual(result["level"], "low")
+
+    def test_urgent_email(self):
+        result = assess_email(
+            "URGENT! You must act now."
+        )
+        self.assertEqual(result["score"], 20)
+        self.assertEqual(result["level"], "medium")
+
+    def test_phishing_email(self):
+        result = assess_email(
+            "Urgent! Verify your account. "
+            "Click here: http://192.168.1.10/login"
+        )
+        self.assertEqual(result["score"], 85)
+        self.assertEqual(result["level"], "high")
+
+    def test_empty_email(self):
+        with self.assertRaises(ValueError):
+            assess_email("")
+
+
+if __name__ == "__main__":
+    unittest.main()
+
