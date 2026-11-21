@@ -11,7 +11,6 @@ Project for Fall 2024 Artificial Intelligence (CPSC-4370-48F) course creating an
    ```bash
    python3 --version
    ```
-   python3 --version
 - Check if Python is already installed on Windows
     ```cmd
     python --version
