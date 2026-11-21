@@ -45,9 +45,13 @@ https://www.wikihow.com/Install-FFmpeg-on-Windows
 
 - Install dependencies:
   
+   
    ```bash
    pip install -r requirements.txt
+   ```
+
 ---
+  
 ## Create api key in elevenlabs
 - need to access [elevenlabs](https://elevenlabs.io/app/settings/api-keys) to generate api key
 - add api key in `app.py` for variable `api_key`
