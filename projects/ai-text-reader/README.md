@@ -6,8 +6,11 @@ Project for Fall 2024 Artificial Intelligence (CPSC-4370-48F) course creating an
 
 ## Prerequisites
 - Python installed
+
 - Check if Python is already installed on MacOS:
    ```bash
+   python3 --version
+   ```
    python3 --version
 - Check if Python is already installed on Windows
     ```cmd
