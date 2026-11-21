@@ -33,4 +33,7 @@ Rules yield false positives and false negatives; attackers can evade them. Links
 
 ## Screenshots
 
-`../screenshots/triage-demo.svg` is an **illustrative mockup**, not a screenshot from the running CLI. Add an actual terminal screenshot of your run before final submission.
+The following screenshots show the program running and the results of its four automated tests.
+
+- [Email Threat Triage Results](../screenshots/email-threat-triage.png)
+- [Automated Test Results](../screenshots/email-threat-triage-tests.png)
