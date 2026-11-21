@@ -28,15 +28,23 @@ Project for Fall 2024 Artificial Intelligence (CPSC-4370-48F) course creating an
 - Install FFmpeg on Windows:
 https://www.wikihow.com/Install-FFmpeg-on-Windows
 
-- setup virtual env for MacOS
+
+- Set up a virtual environment on macOS:
+
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate
-- setup virtual env for Windows
-    ```cmd
-    python -m venv .venv
-    .venv\Scripts\activate
-- install dependencies 
+   ```
+
+- Set up a virtual environment on Windows:
+
+   ```cmd
+   python -m venv .venv
+   .venv\Scripts\activate
+   ```
+
+- Install dependencies:
+  
    ```bash
    pip install -r requirements.txt
 ---
