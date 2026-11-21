@@ -2,8 +2,6 @@
 
 Project for Fall 2024 Artificial Intelligence (CPSC-4370-48F) course creating an AI Text Reader.
 
-- Jaylon Pham - L20572785
-
 # Setup Instructions
 
 ## Prerequisites
