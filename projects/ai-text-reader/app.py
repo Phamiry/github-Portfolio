@@ -1,10 +1,19 @@
+
+import os
 from elevenlabs import play
 from elevenlabs.client import ElevenLabs
 
-# access the ElevenLabs api requires setting up an api key
-client = ElevenLabs(
-  api_key="",
-)
+# Read the private API key from an environment variable.
+api_key = os.getenv("ELEVENLABS_API_KEY")
+
+if not api_key:
+    raise RuntimeError(
+        "ELEVENLABS_API_KEY is not set. "
+        "Set the environment variable before running this program."
+    )
+
+client = ElevenLabs(api_key=api_key)
+  
 
 # function to provide option to create speech from text file
 def speech_from_text_file(file_path):
