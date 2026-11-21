@@ -4,7 +4,7 @@ An educational, defensive email-triage command-line application built in Python 
 
 ## Getting started (Python 3.9+)
 
-From the `ai-project` folder:
+From the `projects/email-threat-triage` folder:
 
 ```bash
 python triage.py --file example_email.txt
