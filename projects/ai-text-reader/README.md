@@ -19,10 +19,13 @@ Project for Fall 2024 Artificial Intelligence (CPSC-4370-48F) course creating an
 ---
 
 ## Setup python environment
-- install dependencies for elevenlabs on MacOS
+- Install FFmpeg on macOS:
+
    ```bash
    brew install ffmpeg
-- install dependencies for elevenlabs on Windows
+   ```
+
+- Install FFmpeg on Windows:
 https://www.wikihow.com/Install-FFmpeg-on-Windows
 
 - setup virtual env for MacOS
