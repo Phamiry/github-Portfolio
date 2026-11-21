@@ -1,12 +1,8 @@
 # Project Overview
 
-This is a group project for Fall 2024 Artificial Intelligence (CPSC-4370-48F) course creating an AI Text Reader with the following group members. 
-
-- Brittany Cooper - L20284115
+Project for Fall 2024 Artificial Intelligence (CPSC-4370-48F) course creating an AI Text Reader.
 
 - Jaylon Pham - L20572785
-
-- Kristy Stallings - L20494128
 
 # Setup Instructions
 
