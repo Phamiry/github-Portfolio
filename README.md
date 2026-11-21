@@ -16,7 +16,6 @@ I am a cybersecurity student at Lamar University with an expected graduation dat
 A collaborative Python text-to-speech project using the ElevenLabs API. It accepts text input or a text file and generates spoken audio.
 
 - [Project files in this portfolio](projects/ai-text-reader/)
-- [Original project repository](https://github.com/Phamiry/artificial-intelligence-project)
 - [Project image](screenshots/ai-text-reader.png)
 
 The original repository contains collaborative work; this portfolio does not claim sole authorship.
