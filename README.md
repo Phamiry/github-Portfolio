@@ -40,21 +40,5 @@ A Python command-line tool that uses explainable, rule-based checks to flag susp
 
 This tool is a demonstration and does not replace professional email-security analysis.
 
-## Repository Structure
-
-```text
-github-Portfolio/
-├── index.html                  # Portfolio website
-├── assets/                     # Website styles and image assets
-├── projects/
-│   ├── ai-text-reader/         # Python text-to-speech project
-│   ├── email-threat-triage/    # Python email analysis project
-│   └── farkle/                 # Java dice game
-├── screenshots/                # Project screenshots and diagrams
-├── documentation/              # Supporting documentation and analyses
-├── resume.pdf                  # Resume
-└── README.md                   # This file
-```
-
 The AI Text Reader requires an ElevenLabs API key to use its API features, and optional Ollama analysis requires a local Ollama setup. Do not publish API keys or other credentials.
 
