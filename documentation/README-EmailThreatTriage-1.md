@@ -1,6 +1,6 @@
 # Email Threat Triage Assistant
 
-An educational, defensive email-triage command-line application built in Python with AI-assisted development. Its **baseline** mode is an explainable heuristic scanner; its **optional local AI mode** asks an Ollama language model for a second opinion. These are deliberately distinguished: the baseline is **not** a machine-learning model.
+An educational, defensive email-triage command-line application built in Python with AI-assisted development. Its **baseline** mode is an explainable heuristic scanner; its **optional local AI mode** asks an Ollama language model for a second opinion.
 
 ## Getting started (Python 3.9+)
 
@@ -26,9 +26,6 @@ For a local language-model response (optional):
 - Supports optional local AI commentary while keeping deterministic scoring independent.
 - Includes four automated tests, a sample message, and documented limitations.
 
-## Development and validation
-
-The application was drafted with assistance from ChatGPT, then checked by running unit tests. The developer remains responsible for validation, security review, and representing the project honestly. See `../documentation/AI_PROMPT_LOG.md`.
 
 ## Limitations and responsible use
 
