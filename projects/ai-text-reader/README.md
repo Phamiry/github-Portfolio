@@ -52,10 +52,14 @@ https://www.wikihow.com/Install-FFmpeg-on-Windows
 
 ---
   
-## Create api key in elevenlabs
-- need to access [elevenlabs](https://elevenlabs.io/app/settings/api-keys) to generate api key
-- add api key in `app.py` for variable `api_key`
----
+
+## ElevenLabs API Key
+
+1. Create an account at [ElevenLabs](https://elevenlabs.io/).
+2. Generate an API key from your account settings.
+3. Keep your API key private. Never upload it to GitHub.
+4. The Python application must be configured to read the API key securely before running.
+  
 
 # Run program
 
