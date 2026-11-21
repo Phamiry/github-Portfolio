@@ -14,6 +14,8 @@ Project for Fall 2024 Artificial Intelligence (CPSC-4370-48F) course creating an
 - Check if Python is already installed on Windows
     ```cmd
     python --version
+    ```
+
 ---
 
 ## Setup python environment
