@@ -75,10 +75,14 @@ https://www.wikihow.com/Install-FFmpeg-on-Windows
 
 - Input selection for entering text or file to generate speech
 
-# Feature work
-- supports text input for speech output
-- supports file input for speech output
-- saves speech files
-- supports multiple languages
-- supports mulitple speaking styles and accents
+
+# Features
+
+- Accepts text entered directly into the console.
+- Reads text from a local text file.
+- Generates speech using the ElevenLabs API.
+- Uses the ElevenLabs multilingual speech model.
+- Plays generated audio.
+- Saves generated speech as an MP3 file.
+  
 
