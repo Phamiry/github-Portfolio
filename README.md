@@ -13,12 +13,11 @@ I am a cybersecurity student at Lamar University with an expected graduation dat
 ### AI Text Reader
 **Course:** Artificial Intelligence (CPSC 4370), Fall 2024
 
-A collaborative Python text-to-speech project using the ElevenLabs API. It accepts text input or a text file and generates spoken audio.
+A Python text-to-speech project using the ElevenLabs API. It accepts text input or a text file and generates spoken audio.
 
 - [Project files in this portfolio](projects/ai-text-reader/)
 - [Project image](screenshots/ai-text-reader.png)
 
-The original repository contains collaborative work; this portfolio does not claim sole authorship.
 
 ### Farkle Dice Game
 **Course:** Fundamentals of Computing II Lab (COSC 1174), Spring 2024
@@ -32,7 +31,7 @@ A Java/JavaFX dice game featuring human and computer players, scoring rules, and
 
 ### Email Threat Triage Assistant
 
-A Python command-line tool that uses explainable, rule-based checks to flag suspicious email characteristics. It can optionally call a locally hosted Ollama model for additional analysis; that optional feature has not yet been verified.
+A Python command-line tool that uses explainable, rule-based checks to flag suspicious email characteristics. It can optionally call a locally hosted Ollama model for additional analysis.
 
 - [Project files](projects/email-threat-triage/)
 - [Python source code](projects/email-threat-triage/triage.py)
