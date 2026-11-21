@@ -59,12 +59,19 @@ https://www.wikihow.com/Install-FFmpeg-on-Windows
 
 # Run program
 
-- run program on MacOS
+
+- Run the program on macOS:
+
    ```bash
    python3 app.py
-- run program on Windows
-   ```bash
+   ```
+
+- Run the program on Windows:
+
+   ```cmd
    python app.py
+   ```
+  
 
 - Input selection for entering text or file to generate speech
 
