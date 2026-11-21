@@ -45,7 +45,7 @@ https://www.wikihow.com/Install-FFmpeg-on-Windows
    python3 app.py
 - run program on Windows
    ```bash
-   python src/app.py
+   python app.py
 
 - Input selection for entering text or file to generate speech
 
