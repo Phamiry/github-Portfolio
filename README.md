@@ -1,35 +1,39 @@
-# Jaylon Pham | Cybersecurity Portfolio
+# Farkle Dice Game — Course Project
 
-A mobile-friendly GitHub Pages portfolio prepared for the COSC 4272 Senior Seminar project at Lamar University.
+## Overview
+Java / JavaFX implementation of the Farkle dice game, featuring a graphical interface,
+six dice, scores, turn controls, three computer opponents, and risk hints based on
+the probability of rolling no scoring dice.
 
-## Live website
+## Technologies
+- Java
+- JavaFX
+- Object-oriented programming
+- UML class diagrams and flowcharts
 
-After publishing, replace with: `https://Phamiry.github.io/github-Portfolio/`
+## Features reflected in the supplied source files
+- Human player and three computer opponents (`GamePanel.java`)
+- Dice rolling, selection and locking (`Die.java`, `DicePane.java`)
+- Rules-based scoring, banking points and farkle detection (`Score.java`)
+- Easier and harder computer-turn strategies (`Computer.java`)
+- Risk hint calculations (`Player.java`, `TakeTurn.java`)
+- GUI controls and scoreboard (`Main.java`, `ButtonPanes.java`, `ScoreBoard.java`)
 
-## Contents
+## Files
+- `src/application/` — 15 provided Java source files
+- `../../screenshots/farkle-uml.png` — supplied UML class diagram
+- `../../screenshots/farkle-flowchart.png` — supplied game flowchart
+- `GAME_INSTRUCTIONS.txt` — supplied game rules
 
-- `index.html` — portfolio site
-- `assets/` — styles and placeholder headshot
-- `resume.pdf` — one-page resume based on supplied resume (December 2026, confirmed by Jaylon)
-- `ai-project/` — additional AI-assisted Python email threat triage application and tests
-- AI Text Reader — [project source](https://github.com/Phamiry/artificial-intelligence-project) and `documentation/AI_TEXT_READER.md`
-- `documentation/` — job search, skills gap, AI prompt log, publishing notes
-- `screenshots/` — mockup; add actual site and program screenshots
+## Running and verification
+The source declares `package application` and imports JavaFX.
+A JavaFX-enabled JDK/runtime and properly configured resources are needed.
+**Important:** The provided `Main.java` expects `application.css`, and `Die.java`
+expects `/images/Dice1.png` through `Dice6.png`; these resource files were not
+among the uploaded materials. Add the original assets before attempting a full
+GUI run. This is a source-and-design showcase, not a verified runnable build.
+Screenshot evidence presently includes UML and flowchart, not an actual running game.
 
-## Deploy with GitHub Pages
-
-1. Create a **public** GitHub repository named `github-portfolio`.
-2. Upload all contents of this folder to the repository root (preserve folder structure).
-3. In **Settings > Pages**, select **Deploy from a branch**, `main`, and `/ (root)`; save.
-4. Visit `https://Phamiry.github.io/github-Portfolio/` after deployment.
-5. Test on desktop and mobile, including the PDF link and project documentation.
-
-Instructions: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-
-## Submission readiness
-
-This is a **functional starter package, not a finished public submission**. Replace the headshot, supply a LinkedIn profile, and add a verified course project, ensure attribution and evidence for the AI Text Reader, and verify your personal-project evidence, actual screenshots and project links. Verify content and publish. See `documentation/FINAL_CHECKLIST.md`.
-
-## AI transparency
-
-AI assisted with drafting the site, the Python app, and written materials. Code and statements require the student's review and should not be represented as independent work without disclosure if course policy requires it.
+## Credit
+Source and diagrams were supplied by Jaylon Pham for his course-project portfolio.
+Specific individual vs. team contributions have not yet been verified.

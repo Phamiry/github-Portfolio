@@ -1,0 +1,56 @@
+Thank you for playing farkle
+
+Controlls
+To start the game press the Play button
+After that you will have three buttons to choose from
+Roll-rerolls the dice
+Score-adds the score from the dice selected to the running score
+End Turn-ends your turn and adds your running score to your total score
+
+Selecting Dice
+to select a die click on it. this will createa a yellow outline arround the die. this means it is selected.
+Once selected if you use the score button the selected dice will be locked shown by a green boarder. Locked dice cannot be selected
+only dice selected will be scored.
+
+Scoring
+to end your turn and add your running score to your final score you must have atleast 200 points in your running score
+
+two triples- n n n m m m points 2500
+
+Straight- 1 2 3 4 5 6 Points 1500
+
+four of a kind and a pair- n n n n m m Points 1500
+
+three pairs- n n m m k k Points 1500
+
+six of a kind n n n n n n Points 3000
+
+five of a kind n n n n n Points 2000
+
+four of a kin n n n n Points 1000
+
+three six's 6 6 6 Points 600
+
+three fives 5 5 5 Points 500
+
+three fours 4 4 4 Points 400
+
+three threes 3 3 3 Points 300
+
+three twos 2 2 2 Points 200
+
+three ones 1 1 1 Points 300
+
+single 1's 1 Points 100 each
+
+single 5's 5 Points 50 each
+
+farkle no score ends turn without adding running score to total
+
+Winning
+After the first player reaches 10,000 points each player will have one turn to try achieve a higher score. After play returns to the first person to reach 10,000 points
+the game is finished and the player with the most points wins.
+
+
+
+
