@@ -1,39 +1,73 @@
 # Jaylon Pham | Cybersecurity Portfolio
 
-A mobile-friendly GitHub Pages portfolio prepared for the COSC 4272 Senior Seminar project at Lamar University.
+A personal cybersecurity portfolio for COSC 4272 Senior Seminar at Lamar University. The website features academic projects, technical skills, a resume, and supporting project evidence.
 
-## Live website
+**Live website:** https://phamiry.github.io/github-Portfolio/
 
-After publishing, replace with: `https://Phamiry.github.io/github-Portfolio/`
+## About
 
-## Contents
+I am a cybersecurity student at Lamar University with an expected graduation date of December 2026. This portfolio highlights selected projects and the technical skills I am developing as I prepare for opportunities in cybersecurity and IT.
 
-- `index.html` — portfolio site
-- `assets/` — styles and placeholder headshot
-- `resume.pdf` — one-page resume based on supplied resume (December 2026, confirmed by Jaylon)
-- `ai-project/` — additional AI-assisted Python email threat triage application and tests
-- AI Text Reader — [project source](https://github.com/Phamiry/artificial-intelligence-project) and `documentation/AI_TEXT_READER.md`
-- `documentation/` — job search, skills gap, AI prompt log, publishing notes
-- `screenshots/` — mockup; add actual site and program screenshots
+## Featured Projects
 
-## Deploy with GitHub Pages
+### AI Text Reader
+**Course:** Artificial Intelligence (CPSC 4370), Fall 2024
 
-1. Create a **public** GitHub repository named `github-portfolio`.
-2. Upload all contents of this folder to the repository root (preserve folder structure).
-3. In **Settings > Pages**, select **Deploy from a branch**, `main`, and `/ (root)`; save.
-4. Visit `https://Phamiry.github.io/github-Portfolio/` after deployment.
-5. Test on desktop and mobile, including the PDF link and project documentation.
+A collaborative Python text-to-speech project using the ElevenLabs API. It accepts text input or a text file and generates spoken audio.
 
-Instructions: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+- [Project files in this portfolio](projects/ai-text-reader/)
+- [Original project repository](https://github.com/Phamiry/artificial-intelligence-project)
+- [Project image](screenshots/ai-text-reader.png)
 
-## Submission readiness
+The original repository contains collaborative work; this portfolio does not claim sole authorship.
 
-This is a **functional starter package, not a finished public submission**. Replace the headshot, supply a LinkedIn profile, and add a verified course project, ensure attribution and evidence for the AI Text Reader, and verify your personal-project evidence, actual screenshots and project links. Verify content and publish. See `documentation/FINAL_CHECKLIST.md`.
+### Farkle Dice Game
+**Course:** Fundamentals of Computing II Lab (COSC 1174), Spring 2024
 
-## AI transparency
+A Java/JavaFX dice game featuring human and computer players, scoring rules, and game logic.
 
-AI assisted with drafting the site, the Python app, and written materials. Code and statements require the student's review and should not be represented as independent work without disclosure if course policy requires it.
+- [Project files](projects/farkle/)
+- [Game screenshot](screenshots/farkle-game.png)
+- [UML diagram](screenshots/farkle-uml.png)
+- [Flowchart](screenshots/farkle-flowchart.png)
 
-## Farkle Java course project
+### Email Threat Triage Assistant
 
-Source, game instructions, UML diagram and flowchart: [`course-project/farkle/`](course-project/farkle/). The original JavaFX CSS and dice-face images were not supplied, so the GUI has not been verified running.
+A Python command-line tool that uses explainable, rule-based checks to flag suspicious email characteristics. It can optionally call a locally hosted Ollama model for additional analysis; that optional feature has not yet been verified.
+
+- [Project files](projects/email-threat-triage/)
+- [Python source code](projects/email-threat-triage/triage.py)
+- [Example email](projects/email-threat-triage/example_email.txt)
+- [Program screenshot](screenshots/email-threat-triage.png)
+
+This tool is a demonstration and does not replace professional email-security analysis.
+
+## Repository Structure
+
+```text
+github-Portfolio/
+├── index.html                  # Portfolio website
+├── assets/                     # Website styles and image assets
+├── projects/
+│   ├── ai-text-reader/         # Python text-to-speech project
+│   ├── email-threat-triage/    # Python email analysis project
+│   └── farkle/                 # Java dice game
+├── screenshots/                # Project screenshots and diagrams
+├── documentation/              # Supporting documentation and analyses
+├── resume.pdf                  # Resume
+└── README.md                   # This file
+```
+
+## View the Website
+
+Visit **https://phamiry.github.io/github-Portfolio/** to see the portfolio. The site is hosted through GitHub Pages from this repository.
+
+The AI Text Reader requires an ElevenLabs API key to use its API features, and optional Ollama analysis requires a local Ollama setup. Do not publish API keys or other credentials.
+
+## AI Use and Verification
+
+AI tools assisted with drafting parts of this portfolio and developing the Email Threat Triage demonstration. Project descriptions should be checked against actual code and testing. The AI Text Reader is an existing collaborative course project and is credited accordingly.
+
+## Remaining Portfolio Updates
+
+Before final submission, confirm that the website's project links match the current folders, replace the placeholder headshot, verify project descriptions and tests, and add a LinkedIn link if available.
