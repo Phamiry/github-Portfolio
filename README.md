@@ -56,16 +56,5 @@ github-Portfolio/
 └── README.md                   # This file
 ```
 
-## View the Website
-
-Visit **https://phamiry.github.io/github-Portfolio/** to see the portfolio. The site is hosted through GitHub Pages from this repository.
-
 The AI Text Reader requires an ElevenLabs API key to use its API features, and optional Ollama analysis requires a local Ollama setup. Do not publish API keys or other credentials.
 
-## AI Use and Verification
-
-AI tools assisted with drafting parts of this portfolio and developing the Email Threat Triage demonstration. Project descriptions should be checked against actual code and testing. The AI Text Reader is an existing collaborative course project and is credited accordingly.
-
-## Remaining Portfolio Updates
-
-Before final submission, confirm that the website's project links match the current folders, replace the placeholder headshot, verify project descriptions and tests, and add a LinkedIn link if available.
