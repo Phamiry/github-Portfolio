@@ -35,5 +35,7 @@ Rules yield false positives and false negatives; attackers can evade them. Links
 
 The following screenshots show the program running and the results of its four automated tests.
 
-- [Email Threat Triage Results](../screenshots/email-threat-triage.png)
-- [Automated Test Results](../screenshots/email-threat-triage-tests.png)
+
+- [Email Threat Triage Results](../../screenshots/email-threat-triage.png)
+- [Automated Test Results](../../screenshots/email-threat-triage-tests.png)
+  
